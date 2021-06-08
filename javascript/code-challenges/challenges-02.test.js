@@ -15,7 +15,7 @@ const raisedToTheThird = (arr) => {
   });
   return newArray;
 };
-};
+
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 2
@@ -23,7 +23,7 @@ CHALLENGE 2
 Write a function named addOne that, given an array of numbers, uses map to return a new array with each value simply incremented by 1. 
 ------------------------------------------------------------------------------------------------ */
 
-const addOne = (arr) => {
+
   const addOne = (arr) => {
     let newArray = [];
     arr.map((name) => {
@@ -52,7 +52,7 @@ const addQuestion = (arr) => {
   });
   return newArray;
 };
-};
+
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 4
@@ -71,7 +71,7 @@ const forLoopTwoToThe = (arr) => {
   };
   return newArray;
 };
-};
+
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 5
@@ -87,7 +87,7 @@ const forEachTwoToThe = (arr) => {
   return newArray;
 
 };
-};
+
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 6
